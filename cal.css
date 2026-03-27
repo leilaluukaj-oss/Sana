@@ -1,0 +1,14 @@
+.calendriers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.calendriers img {
+    width: 1170px;
+    max-width: 100%;
+    height: 433px;
+    display: block;
+}
