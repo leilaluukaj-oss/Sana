@@ -192,6 +192,7 @@ header.scrolled {
 
 .hero-image {
   width: 100%;
+  max-width: 10000px;
   height: 75vh;         
   max-height: 1000px;   
   object-fit: cover;
