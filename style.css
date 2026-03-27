@@ -1,6 +1,12 @@
+
 /* Polices */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+
 
 /* GLOBAL */
 body {
@@ -193,6 +199,15 @@ header.scrolled {
   animation: fadeIn 2s ease-in-out;
 }
 
+@media (max-width: 768px) {
+
+  .hero-image {
+    height: auto;
+    max-height: 60vh;
+  }
+
+}
+
 /* Texte sur photo */
 .hero-text {
   position: absolute;
@@ -245,6 +260,19 @@ header.scrolled {
   transform: translateX(-40px);
   animation: slideFadeIn 1s ease forwards;
   animation-delay: 0.5s;
+}
+
+@media (max-width: 768px) {
+
+  .presentation {
+    margin: 20px;
+  }
+
+  .presentation-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
 }
 
 .presentation-container {
@@ -1072,4 +1100,23 @@ header.scrolled {
     height: auto;
   }
 
+}
+
+@media (max-width: 768px) {
+
+  .main-nav {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .menu-btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
